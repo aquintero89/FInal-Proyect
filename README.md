@@ -33,10 +33,14 @@ PlayPRO Analytics This is a Streamlit app that uses KMeans clustering to group f
 
 JustKidding.notsoserious
 
-**Free Software, Hell Yeah!**
+**Free App, Hell Yeah!**
 
 
-This app was created by [your name here]. Feel free to fork and modify the code as you wish.
+
+
+
+
+This app was created by Alejandro Quintero. Feel free to fork and modify the code as you wish.
 
 
 
