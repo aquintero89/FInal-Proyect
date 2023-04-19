@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
-from sklearn.metrics import pairwise_distances_argmin_min, pairwise_distances
+from sklearn.metrics import pairwise_distances
 import difflib
 import base64
 from fuzzywuzzy import process
