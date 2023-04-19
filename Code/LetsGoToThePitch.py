@@ -129,9 +129,11 @@ with col2:
         st.write(f"<span style='font-weight: bold;'>{attribute.title()}:</span> <span style='font-weight: bold;'>{player_attributes[attribute]}</span>", unsafe_allow_html=True)
 
 
-# Define the market value ranges in EUR millions
+# Define the market value ranges in EUR millions. and player positions
 market_value_ranges = ["All", "Below 10", "10 to 30", "30 to 60", "60 to 100", "100 to 150", "150 to 200", "Above 200"]
 player_positions = ["All", "CAM", "CB", "CDM", "CF", "CM", "LB", "LM", "LW", "LWB", "RB", "RM", "RW", "RWB", "ST"]
+
+#Define select box for player position
 selected_position = st.selectbox("Select player position:", options=player_positions, index=0)
 
 # Input fields for the age range and market value range
