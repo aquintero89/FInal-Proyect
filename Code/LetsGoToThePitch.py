@@ -211,7 +211,7 @@ table_data = {
     "Physic": list(top_5_players["physic"]),
 }
 
-# Create a table to display the top 5 similar players
+#  Create the display result of the app
 table_df = pd.DataFrame(table_data)
 
 for index, row in table_df.iterrows():
